@@ -7,7 +7,7 @@ object RegisterUser {
     password:String,
     confirmPassowrd:String):
             Boolean{
-        if(name.isEmpty() || password.isEmpty() || confirmPassowrd.isEmpty()){
+        if(name.isEmpty() || password.isEmpty() || confirmPassowrd.isEmpty()  ||name.isNullOrEmpty()){
             return false
         }
 
